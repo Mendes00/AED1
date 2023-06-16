@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+int maior(int a, int b){
+	
+  \\FUNÇÕES
+  
+	if(a > b){
+		return a;
+	}
+	 else
+	 return b;
+}
+
+int main (){
+	
+	int a, b;
+	
+	printf("Digite o primeiro numero: ");
+	scanf("%d", &a);
+	printf("Digite o segundo numero: ");
+	scanf("%d", &b);
+	
+	printf("\nMaior %d", maior(a, b));
+	
+}
+*/
+
+\\ PONTEIROS
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+	int *a, *b;
+	int c = 1, d = 2;
+	
+	b = &c;
+	a = &d;
+	
+	printf(" %d \n %d\n", *a, *b);
+	printf("\n\n%p\n%p\n", a, b);
+	
+	if(*a > *b){
+		printf("\nmaior: %p", a);
+	}
+	 else
+	 printf("\nmaior: %p", b);
+}
