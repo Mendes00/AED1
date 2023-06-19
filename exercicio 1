@@ -3,9 +3,9 @@
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\
 /*
-int maior(int a, int b){
-	
+
   \\FUNÇÕES
+int maior(int a, int b){
   
 	if(a > b){
 		return a;
