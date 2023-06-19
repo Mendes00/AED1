@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\
 /*
 int maior(int a, int b){
 	
@@ -26,6 +27,42 @@ int main (){
 	
 }
 */
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+/*int soma(int numero)
+{
+   int soma = 0;
+
+   if (numero <= 0)
+   {
+      printf("Numero invalido.\n");
+      return 0;
+   }
+
+   while (numero > 0)
+   {
+      soma += numero % 10;
+      numero /= 10;
+   }
+
+   return soma;
+}
+
+int main()
+{
+   int a;
+
+   printf("Digite um numero maior do que zero: ");
+   scanf("%d", &a);
+
+   int resultado = soma(a);
+
+   if (resultado != 0)
+   {
+      printf("%d", resultado);
+   }
+}*/
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 \\ PONTEIROS
 
