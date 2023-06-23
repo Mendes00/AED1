@@ -85,4 +85,6 @@ int main(){
 	}
 	 else
 	 printf("\nmaior: %p", b);
+
+	 printf("VAMO GREMIO POHA");
 }
