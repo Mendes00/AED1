@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 /*
 
   \\FUNÇÕES
@@ -27,7 +27,7 @@ int main (){
 	
 }
 */
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 
 /*int soma(int numero)
 {
@@ -62,9 +62,7 @@ int main()
       printf("%d", resultado);
    }
 }*/
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-\\ PONTEIROS
 
 #include <stdio.h>
 #include <stdlib.h>
