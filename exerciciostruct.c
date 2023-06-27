@@ -37,6 +37,7 @@ void imprimir_ordem_alfabetica(cadastro pessoa[], int tamanho)
 
 int main()
 {
+    //gremio
     cadastro pessoa[5];
 
     for (int i = 0; i < 5; i++)
